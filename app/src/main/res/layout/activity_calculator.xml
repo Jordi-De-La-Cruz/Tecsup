@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="@color/teal_200"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/sistema"
+        android:textSize="20sp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:entries="@array/spinner4"
+        style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/teal_200"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/sistema"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:textColor="@color/teal_200"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="@string/promedio"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/purple_200"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/practica1"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/edtPracticaTeo1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:hint="_____"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/purple_200"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/practica2"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/edtPracticaTeo2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:hint="_____"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="3dp"
+        android:background="@color/teal_200"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/teal_200"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/sistema"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:textColor="@color/teal_200"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="@string/promedio"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/purple_200"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/practica1"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/edtPracticaLab1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:hint="_____"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/purple_200"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/practica2"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/edtPracticaLab2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:hint="_____"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/purple_200"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/practica3"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/edtPracticaLab3"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:hint="_____"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/purple_200"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/practica4"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/edtPracticaLab4"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:hint="_____"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textColor="@color/primary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/t_promedio"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/promedio"
+            android:textColor="@color/primary"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="----"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_marginTop="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/calcular"/>
+
+</LinearLayout>

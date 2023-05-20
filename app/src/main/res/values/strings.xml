@@ -1,0 +1,108 @@
+<resources>
+
+    <string name="app_name">Tecsup</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="correo">Correo</string>
+    <string name="usuarios">Registro de usuarios</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apelllidos</string>
+    <string name="confirmar">Repetir Contraseña</string>
+    <string name="condiciones">Acepto los términos y condiciones</string>
+    <string name="btn_noticias">Noticias Tecsup</string>
+    <string name="btn_cursos">Registrar Curso</string>
+    <string name="btn_docentes">Registrar Docente</string>
+    <string name="btn_estudiantes">Registrar Estudiantes</string>
+    <string name="btn_notas">Registrar Notas</string>
+    <string name="t_cursos">Registro de cursos</string>
+    <string name="codigo">Código</string>
+    <string name="n_curso">Nombre Curso</string>
+    <string name="dni">Dni</string>
+    <string name="profesor">Profesor</string>
+    <string name="carrera">Carrera</string>
+    <string name="curso">Curso Activo</string>
+    <string name="btn_limpiar">Limpiar</string>
+    <string name="g_cursos">Gestion de Cursos</string>
+    <string name="t_estudiantes">Registro de Estudiantes</string>
+    <string name="n_completos">Nombres y Apellidos</string>
+    <string name="modalidad">Modalidad de Estudio</string>
+    <string name="virtual">Virtual</string>
+    <string name="presencial">Presencial</string>
+    <string name="semipresencial">Semipresencial</string>
+    <string name="fecha">Fecha Nacimiento</string>
+    <string name="sede">Sede</string>
+    <string name="publicidad">Deseo revisar avisos y publicidad</string>
+    <string name="g_estudiantes">Gestion de Estudiantes</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_grupo">Nuevo Grupo</string>
+    <string name="btn_whatsapp">WhatsApp Web</string>
+    <string name="btn_mensajes">Mensajes destacados</string>
+    <string name="btn_ajustes">Ajustes</string>
+    <string name="g_notas">Gestion de Notas</string>
+    <string name="btn_llamar">Llamar</string>
+    <string name="btn_mensaje">Mensaje</string>
+    <string name="docentes">Docentes</string>
+    <string name="btn_enviar">Enviar un mensaje</string>
+    <string name="btn_conversar">Conversar con un chatbot</string>
+    <string name="btn_preguntas">Preguntas frecuentes</string>
+    <string name="usuario">Jorge Ventura</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="galeria">Galeria</string>
+    <string name="diapositiva">Diapositiva</string>
+    <string name="email">jventugo@tecsup.edu.pe</string>
+    <string name="noticias">Noticias</string>
+    <string name="cursos">Cursos</string>
+    <string name="profesores">Profesores</string>
+    <string name="estudiantes">Estudiantes</string>
+    <string name="notas">Notas</string>
+    <string name="contactanos">Contactanos</string>
+    <string name="reclamaciones">Libro de Reclamaciones</string>
+    <string name="comunicaciones">Comunicaciones</string>
+    <string name="sistema">Sistema de Evaluación</string>
+    <string name="promedio">Prom: ---</string>
+    <string name="practica1">Practica 1</string>
+    <string name="practica2">Practica 2</string>
+    <string name="practica3">Practica 3</string>
+    <string name="practica4">Practica 4</string>
+    <string name="t_promedio">Promedio: </string>
+    <string name="calcular">Calcular</string>
+    <string name="t_calculadora">Calculadora del Trica</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="grados20">20°</string>
+    <string name="trujillo">Trujillo</string>
+    <string name="soleado">Soleado</string>
+    <string name="grados15">15°</string>
+    <string name="aplicaciones">Aplicaciones Moviles - Examen</string>
+    <string name="titulo">De las profundidades del espacio a las paredes de una galería</string>
+    <string name="parrafo">La artista Ashley Zelinskie está ayudando a los científicos de la NASA a compartir su trabajo con audiencias más amplias</string>
+    <string name="fuente">Jeremiah Mean for The New York Times</string>
+
+    <string-array name="spinner">
+        <item>Estudiante</item>
+        <item>Profesor</item>
+    </string-array>
+
+    <string-array name="spinner1">
+        <item>2022-0</item>
+        <item>2022-1</item>
+    </string-array>
+
+    <string-array name="spinner2">
+        <item>Trujillo</item>
+        <item>Lima</item>
+    </string-array>
+
+    <string-array name="spinner3">
+        <item>Administracion de Datos</item>
+        <item>Mecanica Electrica</item>
+    </string-array>
+
+    <string-array name="spinner4">
+        <item>A: 30% T + 70% L</item>
+        <item>A: 40% T + 60% L</item>
+    </string-array>
+
+</resources>

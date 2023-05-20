@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/itemNoticias"
+            android:icon="@drawable/baseline_web_24"
+            android:title="@string/noticias"/>
+
+        <item
+            android:id="@+id/itemCursos"
+            android:icon="@drawable/baseline_menu_book_24"
+            android:title="@string/cursos"/>
+
+        <item
+            android:id="@+id/itemProfesores"
+            android:icon="@drawable/baseline_supervised_user_circle_24"
+            android:title="@string/profesores"/>
+
+        <item
+            android:id="@+id/itemEstudiantes"
+            android:icon="@drawable/baseline_supervised_user_circle_24"
+            android:title="@string/estudiantes"/>
+
+        <item
+            android:id="@+id/itemNotas"
+            android:icon="@drawable/baseline_insert_drive_file_24"
+            android:title="@string/notas"/>
+
+        <item
+            android:title="@string/comunicaciones">
+
+            <menu>
+
+                <item
+                    android:id="@+id/itemContactanos"
+                    android:icon="@drawable/baseline_help_24"
+                    android:title="@string/contactanos"/>
+
+                <item
+                    android:id="@+id/itemReclamaciones"
+                    android:icon="@drawable/baseline_help_24"
+                    android:title="@string/reclamaciones"/>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>

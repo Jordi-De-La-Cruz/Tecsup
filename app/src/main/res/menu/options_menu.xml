@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemRegistrar"
+        android:icon="@drawable/baseline_add_24"
+        android:title="@string/btn_registrar"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/itemBuscar"
+        android:icon="@drawable/baseline_search_24"
+        android:title="@string/btn_buscar"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="@string/btn_grupo"/>
+
+    <item
+        android:title="@string/btn_whatsapp"/>
+
+    <item
+        android:title="@string/btn_mensajes"/>
+
+    <item
+        android:title="@string/btn_ajustes"/>
+
+</menu>
