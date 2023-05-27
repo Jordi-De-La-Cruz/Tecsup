@@ -7,19 +7,53 @@
     <group android:checkableBehavior="single">
 
         <item
+            android:id="@+id/itemPrincipal"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/principal"/>
+
+        <item
+            android:id="@+id/itemCursos"
+            android:icon="@drawable/baseline_menu_book_24"
+            android:title="@string/cursos"/>
+
+        <item
+            android:id="@+id/itemNotas"
+            android:icon="@drawable/baseline_insert_drive_file_24"
+            android:title="@string/notas"/>
+
+        <item
+            android:id="@+id/itemLibros"
+            android:icon="@drawable/baseline_menu_book_24"
+            android:title="@string/libros"/>
+
+        <item
+            android:id="@+id/itemHorarios"
+            android:icon="@drawable/baseline_calendar_month_24"
+            android:title="@string/horarios"/>
+
+        <item
             android:id="@+id/itemCalculadora"
             android:icon="@drawable/baseline_calculate_24"
             android:title="@string/calculadora"/>
 
         <item
-            android:id="@+id/itemGaleria"
-            android:icon="@drawable/baseline_help_24"
-            android:title="@string/galeria"/>
+            android:title="@string/comunicaciones">
 
-        <item
-            android:id="@+id/itemDiapositiva"
-        android:icon="@drawable/baseline_help_24"
-        android:title="@string/diapositiva"/>
+            <menu>
+
+                <item
+                    android:id="@+id/itemContactanos"
+                    android:icon="@drawable/baseline_help_24"
+                    android:title="@string/contactanos"/>
+
+                <item
+                    android:id="@+id/itemReclamaciones"
+                    android:icon="@drawable/baseline_help_24"
+                    android:title="@string/reclamaciones"/>
+
+            </menu>
+
+        </item>
 
     </group>
 

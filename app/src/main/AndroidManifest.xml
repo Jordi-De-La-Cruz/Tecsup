@@ -119,6 +119,14 @@
             android:name=".calculator.CalculatorActivity"
             android:exported="true"
             android:label="@string/t_calculadora" />
+        <activity
+        android:name=".note.NoteActivity"
+        android:exported="true"
+        android:label="@string/notas" />
+        <activity
+            android:name=".book.BookActivity"
+            android:exported="true"
+            android:label="@string/libreria" />
     </application>
 
 </manifest>

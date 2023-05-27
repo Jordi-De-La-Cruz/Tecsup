@@ -165,6 +165,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:headerLayout="@layout/left_header_main"
+        app:itemTextColor="@color/tecsup"
+        app:itemIconTint="@color/tecsup"
         app:menu="@menu/left_navigation_menu"/>
 
     <com.google.android.material.navigation.NavigationView

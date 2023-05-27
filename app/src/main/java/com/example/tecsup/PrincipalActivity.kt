@@ -12,7 +12,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import com.example.tecsup.book.BookActivity
 import com.example.tecsup.calculator.CalculatorActivity
+import com.example.tecsup.note.NoteActivity
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 
@@ -112,17 +114,27 @@ class PrincipalActivity : AppCompatActivity(), PopupMenu.OnMenuItemClickListener
         navigationViewLeft.setNavigationItemSelectedListener { menuItem ->
             drawerLayout.closeDrawer(GravityCompat.START)
             when (menuItem.itemId) {
+                R.id.itemPrincipal -> {
+                    Toast.makeText(this, "Principal", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.itemCursos -> {
+                    Toast.makeText(this, "Cursos", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.itemNotas -> {
+                    startActivity(Intent(this, NoteActivity::class.java))
+                    Toast.makeText(this, "Notas", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.itemLibros -> {
+                    startActivity(Intent(this, BookActivity::class.java))
+                    Toast.makeText(this, "Libros", Toast.LENGTH_SHORT).show()
+                    true
+                }
                 R.id.itemCalculadora -> {
                     startActivity(Intent(this, CalculatorActivity::class.java))
                     Toast.makeText(this, "Calculadora", Toast.LENGTH_SHORT).show()
-                    true
-                }
-                R.id.itemGaleria -> {
-                    Toast.makeText(this, "Galeria", Toast.LENGTH_SHORT).show()
-                    true
-                }
-                R.id.itemDiapositiva -> {
-                    Toast.makeText(this, "Diapositiva", Toast.LENGTH_SHORT).show()
                     true
                 }
                 else -> false
