@@ -4,11 +4,18 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
-class NoteAdapter(private var notaLista: List<Note>) :
+class NoteAdapter():
     RecyclerView.Adapter<NoteViewHolder>() {
 
+    private var notaLista = emptyList<Note>()
+
+    fun setNotas(notas:List<Note>){
+        this.notaLista = notas
+        this.notifyDataSetChanged()
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NoteViewHolder {
-        val inflater = LayoutInflater.from(parent.context)
+        var inflater = LayoutInflater.from(parent.context)
         return NoteViewHolder(inflater, parent)
     }
 
@@ -24,5 +31,4 @@ class NoteAdapter(private var notaLista: List<Note>) :
     interface ItemClickListener {
         fun onItemClick(noteItem: Note)
     }
-
 }

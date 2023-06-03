@@ -127,6 +127,10 @@
             android:name=".book.BookActivity"
             android:exported="true"
             android:label="@string/libreria" />
+        <activity
+            android:name=".user.UserActivity"
+            android:exported="true"
+            android:label="@string/contactos" />
     </application>
 
 </manifest>

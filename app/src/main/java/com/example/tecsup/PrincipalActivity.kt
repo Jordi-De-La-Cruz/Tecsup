@@ -15,6 +15,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import com.example.tecsup.book.BookActivity
 import com.example.tecsup.calculator.CalculatorActivity
 import com.example.tecsup.note.NoteActivity
+import com.example.tecsup.user.UserActivity
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 
@@ -115,6 +116,7 @@ class PrincipalActivity : AppCompatActivity(), PopupMenu.OnMenuItemClickListener
             drawerLayout.closeDrawer(GravityCompat.START)
             when (menuItem.itemId) {
                 R.id.itemPrincipal -> {
+                    startActivity(Intent(this, UserActivity::class.java))
                     Toast.makeText(this, "Principal", Toast.LENGTH_SHORT).show()
                     true
                 }

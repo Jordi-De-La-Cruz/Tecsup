@@ -83,6 +83,10 @@
     <string name="libros">Libros</string>
     <string name="principal">Principal</string>
     <string name="libreria">Librería</string>
+    <string name="telefono">Télefono</string>
+    <string name="direccion">Dirección</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="contactos">Contactos</string>
     <string-array name="spinner">
         <item>Estudiante</item>
         <item>Profesor</item>
