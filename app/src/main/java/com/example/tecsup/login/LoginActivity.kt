@@ -50,6 +50,8 @@ class LoginActivity: AppCompatActivity() {
         viewModel.userLoginServiceResponse.observe(this){
             if (it){
                 startActivity(Intent(this, PrincipalActivity::class.java))
+            }else{
+                alertaMensaje("Error")
             }
         }
     }
