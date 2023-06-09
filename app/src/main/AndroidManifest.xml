@@ -133,6 +133,9 @@
             android:name=".user.UserActivity"
             android:exported="true"
             android:label="@string/contactos" />
+        <activity
+            android:name=".userlist.UserListActivity"
+            android:exported="true"/>
     </application>
 
 </manifest>

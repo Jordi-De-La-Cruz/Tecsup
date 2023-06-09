@@ -16,6 +16,7 @@ import com.example.tecsup.book.BookActivity
 import com.example.tecsup.calculator.CalculatorActivity
 import com.example.tecsup.note.NoteActivity
 import com.example.tecsup.user.UserActivity
+import com.example.tecsup.userlist.UserListActivity
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 
@@ -161,6 +162,7 @@ class PrincipalActivity : AppCompatActivity(), PopupMenu.OnMenuItemClickListener
                     true
                 }
                 R.id.itemEstudiantes -> {
+                    startActivity(Intent(this, UserListActivity::class.java))
                     Toast.makeText(this, "Estudiantes", Toast.LENGTH_SHORT).show()
                     true
                 }

@@ -87,6 +87,7 @@
     <string name="direccion">Dirección</string>
     <string name="btn_guardar">Guardar</string>
     <string name="contactos">Contactos</string>
+    <string name="reqres">Hello ReqRes users!</string>
     <string-array name="spinner">
         <item>Estudiante</item>
         <item>Profesor</item>
